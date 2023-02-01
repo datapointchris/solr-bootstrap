@@ -1,0 +1,7 @@
+{
+    "collection": "vehicles",
+    "coreHost": "d1ncgpep04",
+    "numPartitions": 32,
+    "concurrency": 20,
+    "partitionsPerBatch": 3
+}

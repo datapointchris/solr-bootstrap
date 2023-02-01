@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "solr-bootstrap"
 version = "0.1.0"
-description = ""
+description = "Program to bootstrap solr collections with retry and monitoring for completion"
 authors = ["Chris Birch <datapointchris@gmail.com>"]
 readme = "README.md"
 packages = [{include = "solr_bootstrap"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "3.10.1"
 
 
 [tool.poetry.group.dev.dependencies]
